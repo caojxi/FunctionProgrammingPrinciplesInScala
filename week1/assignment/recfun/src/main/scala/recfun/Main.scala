@@ -14,19 +14,32 @@ object Main {
    * Exercise 1
    */
     def pascal(c: Int, r: Int): Int = {
-      def pascalCalculate(c: Int, r: Int, total: Int) = {
-        if (c === 0) 1
-        if c < 0 0
-        if (c === r) 1
-
-        pascalCalculate()
+      def edge(col: Int, row: Int): Int = {
+        if (col < 0) 0
+        else if (col === 0) 1
+        else if (col === row) 1
+        else if (col > row) 0
+        else col
       }
+
+
     }
 
   /**
    * Exercise 2
    */
-    def balance(chars: List[Char]): Boolean = ???
+    def balance(chars: List[Char]): Boolean = {
+      def loop(chars: List[Char], open: Int, close: Int): Boolean = {
+        if (chars.isEmpty) open === close
+        else {
+          if (chars.head === '(') loop(chars.tail, open + 1, close)
+          else if (chars.head === ')') loop(chars.tail, open, close + 1)
+          else loop(chars.tail, open, close)
+        }
+      }
+
+      loop(chars, 0, 0)
+    }
 
   /**
    * Exercise 3
