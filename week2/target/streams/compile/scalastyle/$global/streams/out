@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0mscalastyle using config /home/nick/code/FunctionProgrammingPrinciplesInScala/week2/scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /home/nick/code/FunctionProgrammingPrinciplesInScala/week2/src/main/scala/taskmanager.scala[0m
+[0m[[33mwarn[0m] [0m/home/nick/code/FunctionProgrammingPrinciplesInScala/week2/src/main/scala/taskmanager.scala:1: Header does not match expected text[0m
+[0m[[0mdebug[0m] [0mend file /home/nick/code/FunctionProgrammingPrinciplesInScala/week2/src/main/scala/taskmanager.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/nick/code/FunctionProgrammingPrinciplesInScala/week2/src/main/scala/datamodels.scala[0m
+[0m[[33mwarn[0m] [0m/home/nick/code/FunctionProgrammingPrinciplesInScala/week2/src/main/scala/datamodels.scala:1: Header does not match expected text[0m
+[0m[[0mdebug[0m] [0mend file /home/nick/code/FunctionProgrammingPrinciplesInScala/week2/src/main/scala/datamodels.scala[0m
+[0m[[0minfo[0m] [0mProcessed 2 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 2 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 5 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /home/nick/code/FunctionProgrammingPrinciplesInScala/week2/target[0m

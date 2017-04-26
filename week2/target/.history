@@ -1,0 +1,30 @@
+import week2.Code._
+def sum(f: Int)(a: Int, b: Int): Int =
+  if (a > b) 0
+def sum(f: Int)(a: Int, b: Int): Int = if (a > b) 0 else f(a) + sum(f)(a + 1, b)
+def a = 0
+console
+c
+clear
+scala
+console
+def a = 0
+help
+compile
+run
+var x = 9
+    line-height: 40px;
+clear
+import java.time.{LocalDate,Month}
+compile
+console
+reload
+test
+reload
+test
+last test:executeTests
+compile
+test
+run
+test
+~test
