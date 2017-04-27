@@ -28,3 +28,6 @@ test
 run
 test
 ~test
+console
+reload
+console
