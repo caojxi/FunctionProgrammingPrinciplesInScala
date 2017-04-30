@@ -9,19 +9,6 @@
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m	found org.scala-sbt#global-plugins;0.0 in inter-project[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e[0m
-[0m[[0mdebug[0m] [0m	found org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.googlecode.java-diff-utils#diffutils;1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.googlecode.java-diff-utils#diffutils;1.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.googlecode.java-diff-utils#diffutils;1.2[0m
-[0m[[0mdebug[0m] [0m	found com.googlecode.java-diff-utils#diffutils;1.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}[0m
@@ -155,11 +142,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -245,11 +227,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -1201,11 +1178,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [compile-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -1931,11 +1903,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -2023,11 +1990,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#objsets-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e->com.googlecode.java-diff-utils#diffutils;1.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -2804,8 +2766,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0!sbteclipse-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-structure-extractor-0-13;7.0.0-12-ga98ec5e!sbt-structure-extractor-0-13.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.googlecode.java-diff-utils#diffutils;1.2!diffutils.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
@@ -2866,7 +2826,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2149ms :: artifacts dl 43ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1047ms :: artifacts dl 41ms[0m
 [0m[[0mdebug[0m] [0m	report for default#objsets-build;0.1-SNAPSHOT compile produced in /Users/xic/Dropbox/FPPS/FunctionProgrammingPrinciplesInScala/week3/assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#objsets-build;0.1-SNAPSHOT runtime produced in /Users/xic/Dropbox/FPPS/FunctionProgrammingPrinciplesInScala/week3/assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#objsets-build;0.1-SNAPSHOT test produced in /Users/xic/Dropbox/FPPS/FunctionProgrammingPrinciplesInScala/week3/assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-test.xml[0m
@@ -2880,5 +2840,5 @@
 [0m[[0mdebug[0m] [0m	report for default#objsets-build;0.1-SNAPSHOT docs produced in /Users/xic/Dropbox/FPPS/FunctionProgrammingPrinciplesInScala/week3/assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#objsets-build;0.1-SNAPSHOT pom produced in /Users/xic/Dropbox/FPPS/FunctionProgrammingPrinciplesInScala/week3/assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#objsets-build;0.1-SNAPSHOT scala-tool produced in /Users/xic/Dropbox/FPPS/FunctionProgrammingPrinciplesInScala/week3/assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2149ms resolve - 43ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1047ms resolve - 41ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
