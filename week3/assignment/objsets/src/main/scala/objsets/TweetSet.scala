@@ -68,6 +68,8 @@ abstract class TweetSet {
     */
   def mostRetweeted: Tweet
 
+  def mostRetweetedLoop(p: (Tweet, Tweet) => Tweet, result: Tweet): Tweet
+
   /**
     * Returns a list containing all tweets of this set, sorted by retweet count
     * in descending order. In other words, the head of the resulting list should
@@ -114,6 +116,8 @@ class Empty extends TweetSet {
 
   def mostRetweeted: Tweet = throw new java.util.NoSuchElementException("Empty Tweet")
 
+  def mostRetweetedLoop(p: (Tweet, Tweet) => Tweet, result: Tweet): Tweet = result
+
   def descendingByRetweet: TweetList = Nil
 
   def union(that: TweetSet): TweetSet = that
@@ -144,14 +148,11 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
     else if (that.isEmpty) this
     else left.union(right.union(that.incl(elem)))
 
-  private def compare(t1: Tweet, t2: Tweet): Tweet = if (t1.retweets > t2.retweets) t1 else t2
+  def mostRetweetedLoop(p: (Tweet, Tweet) => Tweet, result: Tweet): Tweet =
+    if (isEmpty) result
+    else left.mostRetweetedLoop(p, right.mostRetweetedLoop(p, p(elem, result)))
 
-  def mostRetweeted: Tweet = {
-    if (left.isEmpty && right.isEmpty) elem
-    else if (left.isEmpty && !right.isEmpty) compare(elem, right.mostRetweeted)
-    else if (!left.isEmpty && right.isEmpty) compare(elem, left.mostRetweeted)
-    else compare(elem, compare(left.mostRetweeted, right.mostRetweeted))
-  }
+  def mostRetweeted: Tweet = mostRetweetedLoop((t1: Tweet, t2: Tweet) => if (t1.retweets > t2.retweets) t1 else t2, elem)
 
   def descendingByRetweet: TweetList = new Cons(mostRetweeted, remove(mostRetweeted).descendingByRetweet)
 
